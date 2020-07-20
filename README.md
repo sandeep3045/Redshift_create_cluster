@@ -10,6 +10,7 @@ Redshift_config.sh contains all the variables needed for creating cluster and EC
 #-------------------------------------------
 # Syntax for running script
 #-------------------------------------------
+
 -> sh redshift_main.sh -c testcluster 2 dc2.8xlarge #-c to create cluster needs 3 input <Clustername> <NumOfNode> <NodeType>
 
 -> sh redshift_main.sh -d testcluster               #-d to delete cluster needs 1 input <Clustername>
