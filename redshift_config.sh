@@ -1,6 +1,10 @@
 # ===========================================================================
 # Configuration File for Redshift Creation/Deletion/Listing clusters
 # ===========================================================================
+#############################################
+# Created: Sandeep Sharma
+# Date   : 20-Jul-2020
+#############################################
 
 REDSHIFT_CLUSTER_TYPE=multi-node
 REDSHIFT_DB="perf-test"
